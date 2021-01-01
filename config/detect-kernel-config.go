@@ -8,7 +8,7 @@ import (
   "strings"
 )
 
-func detectKernelConfig() {
+func DetectKernelConfig() {
     // Check Kernel Config is available or not.
     // We are replicating BPFTools logic here to check if kernel config is available
     // https://elixir.bootlin.com/linux/v5.7/source/tools/bpf/bpftool/feature.c#L390
